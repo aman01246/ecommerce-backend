@@ -14,7 +14,7 @@ public class CorsConfig {
 	            @Override
 	            public void addCorsMappings(CorsRegistry registry) {
 	                registry.addMapping("/**")
-	                        .allowedOrigins("*")
+	                        .allowedOrigins("https://ecommerce-frontend-32kd.vercel.app")
 	                        .allowedMethods("*")
 	                        .allowedHeaders("*");
 	            }
